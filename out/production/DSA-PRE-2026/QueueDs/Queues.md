@@ -15,3 +15,9 @@ offer()
 ```
 poll()
 ```
+
+## Uses
+
+1. Keyboard Buffer (letters should appear in sequence we type)
+2. Printer Queue (jobs)
+3. Breadth-First-Search (BFS)
