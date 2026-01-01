@@ -30,9 +30,11 @@ public class GraphDs {
 
         graph[3].add(new Edge(3, 1));
         graph[3].add(new Edge(3, 5));
+        graph[3].add(new Edge(3,4));
 
         graph[4].add(new Edge(4, 2));
         graph[4].add(new Edge(4, 5));
+        graph[4].add(new Edge(4,3));
 
         graph[5].add(new Edge(5, 3));
         graph[5].add(new Edge(5, 4));
