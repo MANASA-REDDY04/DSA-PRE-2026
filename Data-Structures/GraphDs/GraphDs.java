@@ -75,9 +75,7 @@ public class GraphDs {
         ArrayList<Edge>[] graph = new ArrayList[7];
         createGraph(graph);
         System.out.println("Neighbours of 2: ");
-        for(int i = 0; i < graph[2].size(); i++){
-            System.out.print(graph[2].get(i).dest+" ");
-        }
+
         System.out.println("\nBFS Traversal: ");
 //        System.out.println("\nDFS Traversal: ");
         boolean[] visited = new boolean[graph.length];
